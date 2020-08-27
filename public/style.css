@@ -1,0 +1,35 @@
+body, button, input{
+    font-family: 'Raleway', sans-serif;
+}
+main{
+    max-width: 1340px;
+    margin: 0 auto;
+}
+h2{
+    font-size: 16px;
+}
+h3{
+    font-size: 13px;
+    font-weight: bold;
+}
+/*HEADER*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 50px 0;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color: #0065FC
+}
+nav a:last-of-type{
+    color: #0065FC;
+    font-weight: bold;
+}
+/*SECTION RECHERCHE*/
