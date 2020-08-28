@@ -7,6 +7,7 @@ main{
 }
 h2{
     font-size: 16px;
+    margin: 0;
 }
 h3{
     font-size: 13px;
@@ -33,3 +34,65 @@ nav a:last-of-type{
     font-weight: bold;
 }
 /*SECTION RECHERCHE*/
+.recherche{
+    display: flex;
+    flex-direction: column;
+}
+.champRechercher{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3px;
+}
+.fa-map-marker-alt{
+    width: 13px;
+    height: 18px;
+    padding: 15.5px 18.5px;
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+input[type=search]{
+    width: 234px;
+    border: none;
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+}
+input[type=submit]{
+    width: 134px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #0065FC;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+}
+.filtres{
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0;
+}
+.filtres h4{
+    align-self: center;
+    margin-right: 18px;
+    font-weight: bold;
+}
+.filtres button{
+    font-size: 1.17em;
+    border: 2px solid #F2F2F2;
+    border-radius: 50px;
+    background: none;
+    padding: 0 18px 0 0;
+    margin-right: 30px;
+}
+.filtres .fas{
+    padding: 12px;
+    margin-right: 18px;
+    border-radius: 50px;
+    color: #0065FC;
+    background-color: #DEEBFF;
+}
