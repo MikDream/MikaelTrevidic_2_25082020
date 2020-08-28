@@ -41,7 +41,7 @@ nav a:last-of-type{
 .champRechercher{
     display: flex;
     flex-direction: row;
-    margin-top: 3px;
+    margin: 3px 0 1px 0;
 }
 .fa-map-marker-alt{
     width: 13px;
@@ -76,23 +76,48 @@ input[type=submit]{
     flex-direction: row;
     margin: 30px 0;
 }
-.filtres h4{
-    align-self: center;
-    margin-right: 18px;
-    font-weight: bold;
+.filtres h3{
+    margin: auto 32px auto 0;
 }
 .filtres button{
-    font-size: 1.17em;
+    height: 50px;
+    font-size: 13px;
+    font-weight: bold;
     border: 2px solid #F2F2F2;
     border-radius: 50px;
     background: none;
-    padding: 0 18px 0 0;
-    margin-right: 30px;
+    padding: 0 21px 0 0;
+    margin-right: 24px;
+    outline: none;
+    cursor: pointer;
 }
 .filtres .fas{
-    padding: 12px;
-    margin-right: 18px;
+    padding: 16.6px 14.875px;
+    margin-right: 13px;
+    background-color: #DEEBFF;
+    border-right: 2px solid #DEEBFF;
     border-radius: 50px;
     color: #0065FC;
-    background-color: #DEEBFF;
+    
 }
+.filtres button:hover{
+    background-color: #DEEBFF;
+    color: #0065FC;
+}
+.filtres button:hover i{
+    color: black;
+    background-color: white;
+    border-color: #F2F2F2;
+}
+.recherche small{
+    font-size: 12px;
+    margin: 5px 0 37px 0;
+}
+.recherche small .fas{
+    padding: 5px 9px;
+    color: #0065FC;
+    border: 1px solid #F2F2F2;
+    border-radius: 50px;
+    margin-right: 12px;
+}
+/*SECTION RESULTATS*/
