@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body, button, input{
     font-family: 'Raleway', sans-serif;
 }
@@ -12,6 +16,13 @@ h2{
 h3{
     font-size: 13px;
     font-weight: bold;
+}
+h4{
+    font-size: 12px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
 }
 /*HEADER*/
 header{
@@ -127,16 +138,73 @@ input[type=submit]{
 }
 .resultats h2{
     font-weight: bold;
+    padding-left: 40px;
+}
+.resultats a{
+    font-size: 13px;
+    padding-left: 40px;
+    color: black;
+    font-weight: bold;
+}
+.resultats a:hover{
+    color: #0065FC;
 }
 .resultatsPrincipaux{
+    display: flex;
+    flex-direction: column;
     width: 880px;
-    height: 626px;
+    height: 529px;
+    padding: 47px 0 50px 0;
     background-color: #F2F2F2;
     border-radius: 15px;
 }
+.conteneurCarte{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto 0;
+}
 .plusPopulaires{
+    display: flex;
+    flex-direction: column;
     width: 420px;
-    height: 626px;
+    height: 579px;
+    padding: 47px 0 0 0;
     background-color: #F2F2F2;
     border-radius: 15px;
+}
+.carte{
+    width: 236px;
+    height: 190px;
+    margin: 15px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+.carte img{
+    border-radius: 10px;
+}
+.carte h4{
+    padding-left: 12px;
+    margin: 12px 0 7px 0;
+}
+.carte p{
+    font-size: 10px;
+    padding-left: 12px;
+    margin-bottom: 7px;
+}
+.carte .note{
+    padding-left: 12px; 
+}
+.plusPopulaires h2{
+    margin-bottom: 17.3px;
+}
+.plusPopulaires .carte{
+    display: flex;
+    width: 334px;
+    height: 134px;
+    margin: 17px 40px 16px auto;
+}
+.plusPopulaires .carte p{
+    margin-bottom: 44px;
 }
