@@ -18,7 +18,7 @@ h3{
     font-weight: bold;
 }
 h4{
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
 }
 a{
@@ -33,7 +33,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 600;
     margin: 50px 0;
 }
@@ -69,7 +69,7 @@ input[type=search]{
     border-top: 1px solid #F2F2F2;
     border-bottom: 1px solid #F2F2F2;
     text-align: center;
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 700;
 }
 input[type=submit]{
@@ -79,8 +79,14 @@ input[type=submit]{
     border-bottom-right-radius: 10px;
     background-color: #0065FC;
     color: white;
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 700;
+}
+input[type=submit]:hover{
+    color: #0065FC;
+    background-color: white;
+    border: 1px solid #F2F2F2;
+    cursor: pointer;
 }
 .filtres{
     display: flex;
@@ -92,7 +98,7 @@ input[type=submit]{
 }
 .filtres button{
     height: 50px;
-    font-size: 13px;
+    font-size: 17px;
     font-weight: bold;
     border: 2px solid #F2F2F2;
     border-radius: 50px;
@@ -103,13 +109,13 @@ input[type=submit]{
     cursor: pointer;
 }
 .filtres .fas{
-    padding: 16.6px 14.875px;
+    font-size: 17px;
+    padding: 14.5px 12.375px;
     margin-right: 13px;
     background-color: #DEEBFF;
-    border-right: 2px solid #DEEBFF;
+    /* border-right: 2px solid #DEEBFF; */
     border-radius: 50px;
     color: #0065FC;
-    
 }
 .filtres button:hover{
     background-color: #DEEBFF;
@@ -151,7 +157,7 @@ input[type=submit]{
     border-radius: 15px;
 }
 .afficherPlus{
-    font-size: 13px;
+    font-size: 17px;
     font-weight: bold;
     padding-left: 40px;
 }
@@ -221,7 +227,7 @@ input[type=submit]{
     border-bottom-left-radius: 10px;
 }
 .texteCarte{
-    padding-right: 60px;
+    padding-right: 50px;
 }
 .texteCarte p{
     padding-bottom: 40px;
@@ -262,4 +268,22 @@ input[type=submit]{
 footer{
     height: 218px;
     background-color: #F2F2F2;
+}
+.contenuFooter{
+    max-width: 1340px;
+    margin: auto;
+    display: flex;
+}
+.contenuFooter div{
+    margin-right: 228px;
+}
+footer h3{
+    padding: 46px 0 9px 0;
+}
+li{
+    font-size: 17px;
+    padding: 9px 0;
+}
+ul{
+    list-style: none;
 }
