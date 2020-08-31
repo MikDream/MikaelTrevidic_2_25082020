@@ -10,15 +10,15 @@ main{
     margin: 0 auto;
 }
 h2{
-    font-size: 20px;
+    font-size: 1.25em;
     margin: 0;
 }
 h3{
-    font-size: 17px;
+    font-size: 1.06em;
     font-weight: bold;
 }
 h4{
-    font-size: 16px;
+    font-size: 1em;
     font-weight: bold;
 }
 a{
@@ -33,7 +33,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 600;
     margin: 50px 0;
 }
@@ -69,7 +69,7 @@ input[type=search]{
     border-top: 1px solid #F2F2F2;
     border-bottom: 1px solid #F2F2F2;
     text-align: center;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 700;
 }
 input[type=submit]{
@@ -79,7 +79,7 @@ input[type=submit]{
     border-bottom-right-radius: 10px;
     background-color: #0065FC;
     color: white;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 700;
 }
 input[type=submit]:hover{
@@ -98,7 +98,7 @@ input[type=submit]:hover{
 }
 .filtres button{
     height: 50px;
-    font-size: 17px;
+    font-size: 1.06em;
     font-weight: bold;
     border: 2px solid #F2F2F2;
     border-radius: 50px;
@@ -109,7 +109,7 @@ input[type=submit]:hover{
     cursor: pointer;
 }
 .filtres .fas{
-    font-size: 17px;
+    font-size: 1.06em;
     padding: 14.5px 12.375px;
     margin-right: 13px;
     background-color: #DEEBFF;
@@ -127,7 +127,7 @@ input[type=submit]:hover{
     border-color: #F2F2F2;
 }
 .recherche small{
-    font-size: 12px;
+    font-size: 0.75em;
     margin: 5px 0 37px 0;
 }
 .recherche small .fas{
@@ -151,13 +151,13 @@ input[type=submit]:hover{
     display: flex;
     flex-direction: column;
     width: 880px;
-    height: 534px;
+    /* height: 534px; */
     padding: 46px 0 46px 0;
     background-color: #F2F2F2;
     border-radius: 15px;
 }
 .afficherPlus{
-    font-size: 17px;
+    font-size: 1.06em;
     font-weight: bold;
     padding-left: 40px;
 }
@@ -171,8 +171,8 @@ input[type=submit]:hover{
     display: flex;
     flex-direction: column;
     width: 420px;
-    height: 579px;
-    padding: 47px 0 0 0;
+    /* height: 579px; */
+    padding: 47px 0 7px 0;
     background-color: #F2F2F2;
     border-radius: 15px;
 }
@@ -187,7 +187,7 @@ input[type=submit]:hover{
     margin: 9px 0 6px 0;
 }
 .carte p{
-    font-size: 13px;
+    font-size: 0.8em;
     padding-left: 12px;
     margin-bottom: 4px;
 }
@@ -266,7 +266,7 @@ input[type=submit]:hover{
 }
 /*FOOTER*/
 footer{
-    height: 218px;
+    width: 100%;
     background-color: #F2F2F2;
 }
 .contenuFooter{
@@ -276,14 +276,55 @@ footer{
 }
 .contenuFooter div{
     margin-right: 228px;
+    padding-bottom: 29px;
 }
 footer h3{
     padding: 46px 0 9px 0;
 }
 li{
-    font-size: 17px;
+    font-size: 1.06em;
     padding: 9px 0;
 }
 ul{
     list-style: none;
+}
+
+/*RESPONSIVE*/
+
+@media all and (max-width: 790px){
+    main{
+        width: 100%;
+    }
+    .recherche{
+        margin: 0 20px;
+    }
+    .champRechercher{
+        margin: 0;
+        width: auto;
+    }
+    .filtres{
+        flex-direction: column;
+    }
+    .resultats{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .resultatsPrincipaux{
+        width: 100%;
+        flex-wrap: wrap;
+        background: none;
+    }
+    .conteneurActivites{
+        width: 100%;
+        height: auto;
+        align-content: center;
+    }
+    .contenuFooter{
+        flex-direction: column;
+        margin: 0 0 0 20px;
+    }
+    .contenuFooter div{
+        margin: 0;
+        padding-bottom: 0;
+    }
 }
