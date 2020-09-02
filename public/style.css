@@ -240,10 +240,17 @@ input[type=submit]:hover{
 .carte:hover{
     box-shadow: none;
 }
+.carte img{
+    display: none;
+}
 .cartePrincipal{
     padding: 5px 5px 10px 5px;
 }
-.cartePrincipal img{
+.imgPrincipal{
+    width: 236px;
+    height: 114px;
+    background-size: cover;
+    background-position: center;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -253,12 +260,13 @@ input[type=submit]:hover{
     height: 134px;
     padding: 5px;
 }
-.cartePopulaire img{
+.imgPopulaire{
+    width: 127px;
+    height: 134px;
+    background-size: cover;
+    background-position: center;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
-}
-.texteCarte{
-    padding-right: 50px;
 }
 .texteCarte p{
     margin-bottom: 35%;
@@ -284,6 +292,12 @@ input[type=submit]:hover{
     box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.247);
 }
 .carteActivites img{
+    display: none;
+}
+.imgActivite{
+    width: 302px;
+    background-size: cover;
+    background-position: center;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -320,7 +334,7 @@ ul{
     padding: 0;
 }
 /*RESPONSIVE*/
-@media all and (max-width: 768px){
+@media all and (max-width: 1200px){
     /*HEADER*/
     header img, header span{
         padding: 0 !important;
@@ -415,9 +429,14 @@ ul{
         background: none;
     }
     .resultatsPrincipaux h2{
-        padding: 0 0 0 20px;
+        padding: 0;
+        margin-left: 20px;
     }
-    .cartePrincipal img{
+    .afficherPlus{
+        padding: 0;
+        margin-left: 20px;
+    }
+    .imgPrincipal{
         width: 326px;
         height: 114px;
     }
@@ -429,15 +448,16 @@ ul{
         padding-left: 20px;
     }
     .conteneurActivites{
-        align-content: center;
+        flex-direction: row;
+        justify-content: space-evenly;
         height: auto;
     }
     .carteActivites h4{
         padding: 16.5px 22px;
     }
-    .carteActivites img{
+    .imgActivite{
         width: 334px;
-        height: 134px;
+        height: 134px !important;
     }
     .lienCarteActivites{
         margin: 12px 0;
@@ -454,5 +474,38 @@ ul{
         margin-right: 0;
         margin-left: 20px;
         padding-bottom: 0;
+    }
+}
+@media all and (min-width: 769px) and (max-width: 1200px){
+    .resultatsPopulaires{
+        align-items: flex-start;
+    }
+    .resultatsPopulaires .conteneurCarte{
+        flex-direction: row;
+        justify-content: flex-start;
+        margin: 0;
+        
+    }
+    .resultatsPopulaires .lienCarte{
+        margin: 5px 10px;
+    }
+    .resultatsPopulaires h2{
+        margin-left: 10px;
+    }
+    .resultatsPopulaires .fa-chart-line{
+        margin-left: 20px;
+    }
+    .resultatsPrincipaux{
+        align-self: center;
+    }
+    .resultatsPrincipaux .conteneurCarte{
+        justify-content: space-between;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .conteneurActivites{
+        justify-content: space-between;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
