@@ -34,7 +34,6 @@ a:hover{
 header{
     display: flex;
     flex-wrap: wrap;
-    /* align-items: center; */
 }
 header img{
     padding: 48px 0;
@@ -74,8 +73,6 @@ header span a{
     margin-bottom: 35px;
 }
 .champRechercher{
-    max-width: 420px;
-    min-width: 330px;
     display: flex;
     margin-bottom: 3%;
 }
@@ -87,8 +84,7 @@ header span a{
     border-bottom-left-radius: 15px;
 }
 input[type=search]{
-    max-width: 234px;
-    min-width: 230px;
+    width: 234px;
     height: 51px;
     border: none;
     border-top: 1px solid #F2F2F2;
@@ -196,9 +192,7 @@ input[type=submit]:hover{
     font-weight: bold;
 }
 .resultatsPopulaires{
-    width: 31.3%;
-    /* max-width: 420px; */
-    min-width: 375px;
+    width: 420px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -371,6 +365,9 @@ ul{
     .champRechercher{
         margin: 0 20px 30px 20px;
     }
+    input[type=search]{
+        width: auto;
+    }
     .textRecherche{
         display: none;
     }
@@ -401,7 +398,6 @@ ul{
     }
     .filtres h3{
         flex-basis: 100%;
-        /* margin: 0 20px 18px 20px; */
     }
     /*SECTION RESULTATS*/
     small{
@@ -464,7 +460,6 @@ ul{
     }
     /*FOOTER*/
     .contenuFooter{
-        display: flex;
         flex-direction: column;
     }
     footer h3{
@@ -476,7 +471,21 @@ ul{
         padding-bottom: 0;
     }
 }
-@media all and (min-width: 769px) and (max-width: 1200px){
+@media all and (min-width: 320px) and (max-width: 375px){
+    .cartePopulaire{
+        width: 306px;
+    }
+    .resultatsPopulaires .fa-chart-line{
+        margin-left: 100px;
+    }
+    .imgPrincipal{
+        width: 306px;
+    }
+    .imgActivite{
+        width: 318px;
+    }
+}
+@media all and (min-width: 768px) and (max-width: 1200px){
     .resultatsPopulaires{
         align-items: flex-start;
     }
@@ -507,5 +516,23 @@ ul{
         justify-content: space-between;
         margin-left: 10px;
         margin-right: 10px;
+    }
+    .contenuFooter{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+@media all and (min-width: 1024px) and (max-width: 1200px){
+    .resultatsPopulaires{
+        align-items: center;
+    }
+    .cartePopulaire{
+        width: 316px;
+    }
+    .resultatsPopulaires .lienCarte{
+        margin: 5px;
+    }
+    .imgActivite{
+        width: 324px;
     }
 }
