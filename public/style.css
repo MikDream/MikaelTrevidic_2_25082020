@@ -30,6 +30,62 @@ a{
 a:hover{
     color: #0065FC;
 }
+.greyStar{
+    color: #F2F2F2;
+}
+/*IMAGES LOGEMENTS*/
+.cannebiere{
+    background-image: url(../public/images/hebergements/4_small/auberge_cannebiere.jpg);
+}
+.hotelPort{
+    background-image: url(../public/images/hebergements/4_small/hotel_port.jpg);
+}
+.hotelMouettes{
+    background-image:url(../public/images/hebergements/4_small/hotel_mouette.jpg);
+}
+.hotelMer{
+    background-image:url(../public/images/hebergements/4_small/hotel_mer.jpg);
+}
+.aubergePanier{
+    background-image:url(../public/images/hebergements/4_small/auberge_panier.jpg);
+}
+.hotelAmina{
+    background-image:url(../public/images/hebergements/4_small/hotel_amina.jpg);
+}
+.hotelSoleil{
+    background-image:url(../public/images/hebergements/4_small/hotel_soleil_matin.jpg);
+}
+.chambreCoeurEau{
+    background-image:url(../public/images/hebergements/4_small/chambre_au_coeur_eau.jpg);
+}
+.hotelBleuBlanc{
+    background-image:url(../public/images/hebergements/4_small/hotel_bleu_blanc.jpg);
+}
+/*IMAGES ACTIVITES*/
+.activitePort{
+    background-image: url(../public/images/activites/4_small/vieux_port.jpg);
+    height: 393px;
+}
+.activitePomegues{
+    background-image: url(../public/images/activites/4_small/fort_de_pomegues.jpg);
+    height: 180px;
+}
+.activiteFrioul{
+    background-image: url(../public/images/activites/4_small/ile_du_frioul.jpg);
+    height: 109px;
+}
+.activiteCalanques{
+    background-image: url(../public/images/activites/4_small/parc_des_calanques.jpg);
+    height: 393px;
+}
+.activiteNotreDame{
+    background-image: url(../public/images/activites/4_small/notre_dame_de_la_garde.jpg);
+    height: 140px;
+}
+.activiteLongchamp{
+    background-image: url(../public/images/activites/4_small/parc_longchamp.jpg);
+    height: 154px;
+}
 /*HEADER*/
 header{
     display: flex;
@@ -234,9 +290,6 @@ input[type=submit]:hover{
 .carte:hover{
     box-shadow: none;
 }
-.carte img{
-    display: none;
-}
 .cartePrincipal{
     padding: 5px 5px 10px 5px;
 }
@@ -284,9 +337,6 @@ input[type=submit]:hover{
 .carteActivites{
     border-radius: 10px;
     box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.247);
-}
-.carteActivites img{
-    display: none;
 }
 .imgActivite{
     width: 302px;
