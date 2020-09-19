@@ -35,55 +35,55 @@ a:hover{
 }
 /*IMAGES LOGEMENTS*/
 .cannebiere{
-    background-image: url(../public/images/hebergements/4_small/auberge_cannebiere.jpg);
+    background-image: url(../public/images/hebergements/small/auberge_cannebiere.jpg);
 }
 .hotelPort{
-    background-image: url(../public/images/hebergements/4_small/hotel_port.jpg);
+    background-image: url(../public/images/hebergements/small/hotel_port.jpg);
 }
 .hotelMouettes{
-    background-image:url(../public/images/hebergements/4_small/hotel_mouette.jpg);
+    background-image:url(../public/images/hebergements/small/hotel_mouette.jpg);
 }
 .hotelMer{
-    background-image:url(../public/images/hebergements/4_small/hotel_mer.jpg);
+    background-image:url(../public/images/hebergements/small/hotel_mer.jpg);
 }
 .aubergePanier{
-    background-image:url(../public/images/hebergements/4_small/auberge_panier.jpg);
+    background-image:url(../public/images/hebergements/small/auberge_panier.jpg);
 }
 .hotelAmina{
-    background-image:url(../public/images/hebergements/4_small/hotel_amina.jpg);
+    background-image:url(../public/images/hebergements/small/hotel_amina.jpg);
 }
 .hotelSoleil{
-    background-image:url(../public/images/hebergements/4_small/hotel_soleil_matin.jpg);
+    background-image:url(../public/images/hebergements/small/hotel_soleil_matin.jpg);
 }
 .chambreCoeurEau{
-    background-image:url(../public/images/hebergements/4_small/chambre_au_coeur_eau.jpg);
+    background-image:url(../public/images/hebergements/small/chambre_au_coeur_eau.jpg);
 }
 .hotelBleuBlanc{
-    background-image:url(../public/images/hebergements/4_small/hotel_bleu_blanc.jpg);
+    background-image:url(../public/images/hebergements/small/hotel_bleu_blanc.jpg);
 }
 /*IMAGES ACTIVITES*/
 .activitePort{
-    background-image: url(../public/images/activites/4_small/vieux_port.jpg);
+    background-image: url(../public/images/activites/small/vieux_port.jpg);
     height: 393px;
 }
 .activitePomegues{
-    background-image: url(../public/images/activites/4_small/fort_de_pomegues.jpg);
+    background-image: url(../public/images/activites/small/fort_de_pomegues.jpg);
     height: 180px;
 }
 .activiteFrioul{
-    background-image: url(../public/images/activites/4_small/ile_du_frioul.jpg);
+    background-image: url(../public/images/activites/small/ile_du_frioul.jpg);
     height: 109px;
 }
 .activiteCalanques{
-    background-image: url(../public/images/activites/4_small/parc_des_calanques.jpg);
+    background-image: url(../public/images/activites/small/parc_des_calanques.jpg);
     height: 393px;
 }
 .activiteNotreDame{
-    background-image: url(../public/images/activites/4_small/notre_dame_de_la_garde.jpg);
+    background-image: url(../public/images/activites/small/notre_dame_de_la_garde.jpg);
     height: 140px;
 }
 .activiteLongchamp{
-    background-image: url(../public/images/activites/4_small/parc_longchamp.jpg);
+    background-image: url(../public/images/activites/small/parc_longchamp.jpg);
     height: 154px;
 }
 /*HEADER*/
